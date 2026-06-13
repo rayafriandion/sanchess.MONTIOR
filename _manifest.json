@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "id": "sanchess.MONITOR",
+  "version": "0.1.0",
+  "name": "MONITOR",
+  "description": "截取当前活动屏幕并进行高斯模糊处理后发送，仅支持 Windows 平台。",
+  "author": {
+    "name": "Raya Friandion",
+    "url": "https://github.com/rayafriandion"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/rayafriandion/sanchess.MONTIOR.git",
+    "homepage": "https://github.com/rayafriandion/sanchess.MONTIOR",
+    "documentation": "https://github.com/rayafriandion/sanchess.MONTIOR/blob/main/README.md",
+    "issues": "https://github.com/rayafriandion/sanchess.MONTIOR/issues"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "1.1.0"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [
+    {
+      "type": "python_package",
+      "name": "Pillow",
+      "version_spec": ">=10.0.0"
+    }
+  ],
+  "capabilities": [
+    "send.text",
+    "send.image"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN"
+  }
+}
