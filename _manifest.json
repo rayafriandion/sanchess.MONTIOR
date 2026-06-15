@@ -10,10 +10,10 @@
   },
   "license": "MIT",
   "urls": {
-    "repository": "https://github.com/rayafriandion/sanchess.MONTIOR.git",
-    "homepage": "https://github.com/rayafriandion/sanchess.MONTIOR",
-    "documentation": "https://github.com/rayafriandion/sanchess.MONTIOR/blob/main/README.md",
-    "issues": "https://github.com/rayafriandion/sanchess.MONTIOR/issues"
+    "repository": "https://github.com/rayafriandion/sanchess.MONITOR",
+    "homepage": "https://github.com/rayafriandion/sanchess.MONITOR",
+    "documentation": "https://github.com/rayafriandion/sanchess.MONITOR/blob/main/README.md",
+    "issues": "https://github.com/rayafriandion/sanchess.MONITOR/issues"
   },
   "host_application": {
     "min_version": "1.0.0",

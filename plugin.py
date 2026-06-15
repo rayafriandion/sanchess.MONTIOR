@@ -126,7 +126,7 @@ class MonitorPlugin(MaiBotPlugin):
 
         if not self.config.permission.allow_all:
             allowed_ids = self.config.permission.allowed_user_ids
-            if allowed_ids and user_id not in allowed_ids:
+            if not allowed_ids or user_id not in allowed_ids:
                 msg = "你没有权限使用此命令"
                 if stream_id:
                     await self.ctx.send.text(msg, stream_id)
